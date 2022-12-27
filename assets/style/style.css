@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+box-sizing: border-box;
+}
+body{
+  font-family: "open Sans",Arial, Helvetica, sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.section {
+  background: url(../images/gass\ game.jpeg);
+  height: 100vh;
+}
+.guess {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  row-gap: 70px;
+}
+.guess__inp {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid rgb(82, 49, 49);
+}
+.guess__btn {
+  width: 180px;
+  height: 35px;
+  font-size: 20px;
+  background-color: rgb(146, 50, 50);
+  color: aliceblue;
+  border: 1px solid rgb(28, 23, 23);
+  border-radius: 10px;
+}
+.guess__restart {
+  display: none;
+  width: 150px;
+  height: 35px;
+  background-color: rgb(146, 50, 50);
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(28, 23, 23);
+}
+.guess__title {
+  /* display: inline-block; */
+  color: white;
+  background-color: red;
+  font-size: 50px;
+  border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+@media(max-width:680px) {
+  .container {
+    max-width: 640px;
+  }
+  .guess__title {
+    font-size: 40px;
+  }
+}
+@media(max-width:540px) {
+  .container {
+    max-width: 540px;
+  }
+  .guess__title {
+    font-size: 40px;
+  }
+}
+@media(max-width:480px) {
+  .container {
+    max-width: 480px;
+  }
+  .guess__title {
+    font-size: 40px;
+  }
+}
+@media(max-width:380px) {
+  .container {
+    max-width: 380px;
+  }
+  .guess__title {
+    font-size: 30px;
+  }
+}
