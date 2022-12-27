@@ -16,9 +16,9 @@ btn.addEventListener('click', () => {
       restartBtn.style.display = 'block'
       btn.disabled = true
     } else if (randomNumber > +inp.value) {
-      answer.innerText = 'Загаданное число меньше'
-    } else {
       answer.innerText = 'Загаданное число больше'
+    } else {
+      answer.innerText = 'Загаданное число меньше'
     }
     previous.innerText += ` ${inp.value} `
     attempt--
